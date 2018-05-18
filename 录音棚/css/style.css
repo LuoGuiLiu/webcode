@@ -1,0 +1,157 @@
+ <style type="text/css">
+*{margin:0;
+ padding:0;
+  }
+body{
+	background-color:#fff;
+   min-width:1204px; }
+
+.p{position:absolute;
+   top:10%;
+   left:8%;
+}/*星空logo位置*/ 
+.p1{position:absolute;
+      top:40%;
+     left:18%;
+     font-family:Showcard Gothic;
+     font-size:34pt;
+     color:#238acc;}/*xingkong music位置*/ 
+.p4{ position:absolute;
+	   top:37%;
+     left:76%;}/*头像位置*/ 
+.p5{position:absolute;
+     top:100%;
+     left:0;}/*背景图1的位置*/
+.p6{position:absolute;
+    top:700%;
+    left:0;}
+.p7{position:absolute;
+     top:350%;
+     left:30%;}
+.p8{position:absolute;
+    top:350%;
+    left:55%;}
+
+
+
+
+
+.box1{ position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:15%;
+      border:none;
+      background-color:#fff;
+    } /*顶部盒子*/          
+.menu{position:absolute;
+     top:45%;
+     left:46%;
+     background-color:#fff; 
+     width:500px; 
+     height:0; 
+     margin:0 auto;
+  font-size:20pt;
+    font-family:微软雅黑;
+    font-weight:bold;}
+ ul{ list-style:none;}
+ ul li{ line-height:40px; 
+  text-align:center; 
+  position:relative;
+  float:left; 
+   margin-right:0;}
+ a{ text-decoration:none; 
+  color:#000; 
+  display:block; 
+  width:100px;
+  height:65px;}
+ a:hover{ color:#d6eaf6;
+          background-color:none;
+          padding-top:0;}
+        }
+ ul li ul li{margin-top:0;
+             padding-top:0.1em;
+             padding-bottom:0.1em;
+             padding-right:0em;
+             padding-left:0em;
+             background-color:#9ecae9;
+             opacity:0.8;
+            
+
+
+              
+} 
+ ul li ul li a:hover{color:#012;
+                     background-color:#c1dceb;
+             padding-top:0em;
+             padding-bottom:0em;
+             padding-right:0em;
+             padding-left:0em;}
+ ul li ul{width:90px;
+          height:60px;
+        position:absolute;
+        top:100%;
+        right:-5%; 
+        display:none;
+          }
+ ul li:hover ul{display:block;
+                
+}/*下拉菜单*/
+
+.menu1{position:absolute;
+     top:49%;
+     left:80%;
+     background-color:#fff; 
+     width:0px; 
+     height:0px; 
+     margin:0 auto;
+  font-size:15pt;
+    font-family:微软雅黑;
+    font-weight:bold;}
+ ul{ list-style:none;}
+ ul li{ line-height:40px; 
+  text-align:center; 
+  position:relative;
+  float:left; 
+   margin-right:5%;}
+ a{ text-decoration:none; 
+  color:#000; 
+  display:block; 
+  width:90px;
+    height:65px;}
+ a:hover{ color:#9fd0ed;
+          background-color:none;
+             padding-top:0;}
+ ul li ul li{margin-top:0;
+             background-color:#9ecae9;
+             padding-top:0.1em;
+             padding-bottom:0.1em;
+             padding-right:0em;
+             padding-left:0em;
+             opacity:0.8;
+            border-bottom-left&right-radius: 15%
+            
+ } 
+ ul li ul li a:hover{color:#012;
+                     background-color:#c1dceb;
+                     padding:0;}
+ ul li ul{width:90px;
+          height:60px;
+          position:absolute;
+        top:100%;
+        right:0;
+       display:none; 
+      
+}
+ ul li:hover ul{display:block;
+              
+}/*下拉菜单2*/
+
+
+
+
+
+
+
+
+</style>

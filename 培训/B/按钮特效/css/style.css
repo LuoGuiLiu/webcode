@@ -1,0 +1,508 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width:100%;
+	height:100%;
+}
+@keyframes play{
+	
+	0%{
+	transform:rotate(0);
+	}
+
+	25%{
+	transform:rotate(90deg);
+	}
+	50%{
+	transform:rotate(180deg);
+	}
+	75%{
+	transform:rotate(270deg);
+	}
+	100%{
+	transform:rotate(360deg);
+	}
+}
+
+
+
+
+
+
+
+.box{
+	width: 570px;
+    height: 240px;
+    border:none;
+    margin:15% 29%;
+    position: relative;
+}
+.form_1{
+	width: 190px;
+	height:240px;
+	border:none;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.form_2{
+	width: 189px;
+	height:240px;
+	border:none;
+	position:absolute;
+	top:0;
+	left:190px;
+}
+.form_3{
+	width: 189px;
+	height:240px;
+	border:none;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.texiao_1{
+	background: url('images/happy.jpg') no-repeat center;
+	background-size:cover;
+	width: 110px;
+	height:110px;
+    border-radius: 100%;
+    border: 8px solid #099;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    box-shadow:1px 1px 10px  2px #000;
+}
+.form_1 span:first-child:hover{
+	transform:scale(1.2);
+	animation-name:play;
+	animation-duration:0.5s;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	anmination-delay:0.3;
+	animation-direction:normal;
+
+}
+
+.texiao_2{
+	width: 110px;
+	height:110px;
+    border-radius: 100%;
+    border: 8px solid #099;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+	box-shadow:1px 1px 10px  2px #000;
+
+}
+.form_2 span:first-child:hover{
+	animation-name:play;
+	animation-duration:0.5s;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	anmination-delay:0.3;
+	animation-direction:normal;
+	transform:scale(1.2);
+
+}
+.texiao_3{
+	width: 110px;
+	height:110px;
+    border-radius: 100%;
+    border: 8px solid #099;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    box-shadow:1px 1px 10px  2px #000;
+    
+}
+.form_3 span:first-child:hover{
+	animation-name:play;
+	animation-duration:0.5s;
+	animation-iteration-count:1;
+	animation-timing-function:ease;
+	anmination-delay:0.3;
+	animation-direction:normal;
+	transform:scale(1.2);
+
+}
+
+#button_1{
+	position:relative;
+	display: inline-block;
+	margin:180px 38px;
+    width: 110px;
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #099;
+    font-family: '迷你简菱心';
+    font-size: 15px;
+    text-shadow: 1px 1px 10px #000;
+    opacity:0.5;
+    color: #099;
+    box-shadow: 1px 1px 10px #099;
+    text-decoration: none;
+}
+
+#button_1:hover{
+	opacity:1.0;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-top{
+	display: block;
+	position: absolute;
+	top:-30px;
+	left:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_1:hover .line-top{
+	top:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-right{
+	display: block;
+	position: absolute;
+	top:-2px;
+	right:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_1:hover .line-right{
+	right:0px;
+	width:100%;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-bottom{
+	display: block;
+	position: absolute;
+	bottom:-30px;
+	right:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_1:hover .line-bottom{
+	bottom:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-left{
+	display: block;
+	position: absolute;
+	bottom:-2px;
+	left:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_1:hover .line-left{
+	left:0px;
+	width:100%;
+	height:2px;
+	background: #099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_2{
+	position:relative;
+	display: inline-block;
+	margin:180px 38px;
+    width: 110px;
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #099;
+    font-family: '迷你简菱心';
+    font-size: 15px;
+    text-shadow: 1px 1px 10px #000;
+    opacity:0.5;
+    color: #099;
+    box-shadow: 1px 1px 10px #099;
+    text-decoration: none;
+}
+
+#button_2:hover{
+	opacity:1.0;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-top{
+	display: block;
+	position: absolute;
+	top:-30px;
+	left:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_2:hover .line-top{
+	top:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-right{
+	display: block;
+	position: absolute;
+	top:-2px;
+	right:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_2:hover .line-right{
+	right:0px;
+	width:100%;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-bottom{
+	display: block;
+	position: absolute;
+	bottom:-30px;
+	right:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_2:hover .line-bottom{
+	bottom:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-left{
+	display: block;
+	position: absolute;
+	bottom:-2px;
+	left:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_2:hover .line-left{
+	left:0px;
+	width:100%;
+	height:2px;
+	background: #099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+
+
+
+#button_3{
+	position:relative;
+	display: inline-block;
+	margin:180px 38px;
+    width: 110px;
+    height: 30px; 
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #099;
+    font-family: '迷你简菱心';
+    font-size: 15px;
+    text-shadow: 1px 1px 10px #000;
+    opacity:0.5;
+    color: #099;
+    box-shadow: 1px 1px 10px #099;
+    text-decoration: none;
+}
+
+#button_3:hover{
+	opacity:1.0;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-top{
+	display: block;
+	position: absolute;
+	top:-30px;
+	left:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_3:hover .line-top{
+	top:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-right{
+	display: block;
+	position: absolute;
+	top:-2px;
+	right:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+#button_3:hover .line-right{
+	right:0px;
+	width:100%;
+	height:2px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-bottom{
+	display: block;
+	position: absolute;
+	bottom:-30px;
+	right:-2px;
+	width:2px;
+	height:0px;
+	background:#099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_3:hover .line-bottom{
+	bottom:0px;
+	height:100%;
+	width:2px;
+	background: #099;
+	transition-duration:0.3s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+.line-left{
+	display: block;
+	position: absolute;
+	bottom:-2px;
+	left:-120px;
+	width:0;
+	height:2px;
+	background:#099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+
+#button_3:hover .line-left{
+	left:0px;
+	width:100%;
+	height:2px;
+	background: #099;
+	transition-duration:0.5s;
+	transition-timing-function:ease-in;
+	transition-delay:0s;
+}
+.tip{
+	position: absolute;
+    top: 137px;
+    height:30px;
+    padding: 0 9px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #198;
+    color: #fff;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    display:none;
+    transition-duration:1s;
+   
+
+}
+.tip em{
+	font-style:normal;
+}
+.tip span{
+	opacity:1.0;
+	display: block;
+    position: absolute;
+    top: 30px;
+    left: 43%;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-top-color: #198;
+}
+

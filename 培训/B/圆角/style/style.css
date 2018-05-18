@@ -1,0 +1,110 @@
+.yuan{
+	width:0;
+	height: 0;
+	padding:100px;
+	border:1px solid #b1134a;
+	border-radius: 100px;
+	background:#b1134a;
+	margin-top:50px;
+	box-shadow:2px 3px 10px #000;
+	
+}
+.tuoyuan{
+	width:0;
+	height: 0;
+	padding:50px 100px 50px 100px;
+	border:1px solid #b1134a;
+	border-radius: 50%;
+	background:#b1134a;
+	margin-top:50px;
+	box-shadow:2px 3px 10px #000;
+}
+.sanjiaoxing{
+	width:0;
+	height: 0;
+	border-bottom:100px solid #b1134a;
+	border-left:100px solid transparent;
+	border-right:100px solid transparent;
+    margin-top:50px;
+	
+}
+.qipao{
+	width:230px;
+	height:100px;
+	margin-top:50px;
+	
+}
+
+.qipao_1{
+   	width:0px;
+	height:0px;
+	border-bottom:30px solid transparent;
+	border-right:30px solid #b1134a;
+	border-top:30px solid transparent;
+	display:inline-block;
+	float:left;
+	margin-top: 50px;
+	
+}
+.qipao_2{
+	width:0;
+	height:0;
+	border-left:100px solid #b1134a;
+	border-right:100px solid #b1134a;
+	border-top:80px solid #b1134a;
+	border-bottom:80px solid #b1134a;
+	border-radius:10px;
+	float:right;
+    	display:inline-block;
+	
+
+
+}
+.shanxing{
+	margin-top:100px;
+	 width:0px;
+	height:0px;
+	border-top:200px solid #b1134a;
+	border-right:150px solid transparent;
+	border-left:150px solid transparent;
+	border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	
+}
+
+.rt_sanjiaoxing{
+	margin-top:50px;
+	width: 0;
+	height: 0;
+	border-left:200px solid#b1134a;
+	border-right:200px solid transparent;
+	border-bottom:200px solid transparent;
+	
+}
+.l_sanjiaoxing{
+	margin-top:50px;
+	width: 0;
+	height: 0;
+	border-left:200px solid#b1134a;
+	border-right:150px solid transparent;
+	border-bottom:150px solid transparent;
+	border-top:150px solid transparent;
+	border-left-shadow:2px 3px 10px #000;
+}
+.zhengfangxing{
+	margin-top:50px;
+	width:0;
+	height:0;
+	border:100px solid #b1134a;
+	box-shadow:2px 3px 10px #000;
+}
+.juxing{
+	margin-top:50px;
+	width:0px;
+	height:0px;
+	border-left:100px solid #b1134a;
+	border-right:100px solid #b1134a;
+	border-top:60px solid #b1134a;
+	border-bottom:60px solid #b1134a;
+	box-shadow:2px 3px 10px #000;
+}

@@ -1,0 +1,422 @@
+﻿
+*{
+  margin:0;
+  padding:0;}
+
+body{
+	background-color:#f7f7f7;
+  }
+.p{
+  position:absolute;
+  top:15px;
+  left:153.6px;}/*星空logo位置*/ 
+.p1{
+  position:absolute;
+  top:48.376px;
+  left:325px;
+  font-family:Showcard Gothic;
+  font-size:34pt;
+  color:#238acc;}/*xingkong music位置*/ 
+
+.p2{
+  position:absolute;
+  top:68.9358px;
+  left:820px;}/*搜索栏位置*/ 
+.p3{
+  position:absolute;
+	top:65.3076px;
+	left:785px;}/*提交按钮位置*/ 
+.p4{
+  position:absolute;
+  top:120.94px;
+  left:0;}/*背景图1的位置*/ 
+
+.p5{
+  position:absolute;
+	top:0px;
+  left:100px;}/*头像位置*/ 
+.p6{
+  position:absolute;
+  top:250px;
+  left:130px;}/*装置照片*/ 
+
+.p13{
+  position:absolute;
+  top:1000px;
+  left:672px;}/*更多歌曲图片*/
+.p14{
+  position:absolute;
+  top:1818.7px;
+  left:0;}/*背景2位置*/  
+.p15{
+  position:absolute;
+  top:621px;
+  left:672px;}/*滚动歌词位置*/ 
+.p16{
+  position:absolute;
+  top:1110px;
+  left:672px;}/*歌曲1*/ 
+.p17{
+  position:absolute;
+  top:1110px;
+  left:1081.7px;}/*歌曲2*/ 
+.p18{
+  position:absolute;
+  top:1110px;
+  left:1480.2px;}/*歌曲3*/ 
+.p19{
+  position:absolute;
+  top:640px;
+  left:1555.2px;}/*装饰照片*/
+.p20{
+  position:absolute;
+  top:770px;
+  left:768px; }/*播放按钮*/
+
+
+.p27{
+  position:absolute;
+  top:660px;
+  left:768px;}/*星空text*/
+
+
+
+
+
+
+.box1{
+ position:absolute;
+ top:0;
+ left:0;
+ width:1920px;
+ height:124.12px;
+ border:none;
+ background-color:#fff;
+    } /*顶部盒子*/          
+
+.box2{ 
+  position:absolute;
+  top:60px;
+  left:775px;
+  border:5px solid #d2d2d2; 
+  border-radius:20px;   
+  width:240px;
+  height:30px; } /*搜索外框*/
+
+
+.box3{ 
+  position:absolute;
+  top:950px;
+  left:140px;
+  width:485.63px;
+  height:638px;
+  border:none;
+  background-color:#e5e3e2;
+  opacity:0.4;} /*装置照片阴影*/
+
+
+.box5{ 
+  position:absolute;
+  top:628px;
+  left:681.6px;
+  width:1150px;
+  height:318px;
+  border:none;
+  background-color:#e5e3e2;
+  opacity:0.4;} /*滚动歌词阴影*/
+
+
+
+
+
+.menu{
+  position:absolute;
+  top:60px;
+  left:1080px;
+  background-color:#fff; 
+  width:500px; 
+  height:0; 
+  margin:0 auto;
+  font-size:20pt;
+  font-family:微软雅黑;
+  font-weight:bold;}
+ ul{
+  list-style:none;}
+ ul li{
+  line-height:40px; 
+  text-align:center; 
+  position:relative;
+  margin-right:5%;}
+ a{ 
+  text-decoration:none; 
+  color:#000; 
+  display:block; 
+  width:100px;
+  height:65px;}
+ a:hover{ 
+  color:#d6eaf6;
+  background-color:none;
+  padding-top:0;}
+ ul li ul li{
+  margin-top:0;
+  padding-top:0.1em;
+  padding-bottom:0.1em;
+  padding-right:0em;
+  padding-left:0em;
+  background-color:#9ecae9;
+  opacity:0.8;
+            
+
+
+              
+} 
+ ul li ul li a:hover{
+  color:#012;
+  background-color:#c1dceb;
+  padding:0;}
+.menu ul li ul{
+  width:90px;
+  height:60px;
+  position:absolute;
+  top:61px;
+  right:0px; 
+  display:none;}
+ ul li:hover ul{
+  display:block;}/*下拉菜单*/
+
+.menu1{
+  position:absolute;
+  top:61px;
+  left:1630px;
+  background-color:#fff; 
+  width:0px; 
+  height:0px; 
+  margin:0 auto;
+  font-size:15pt;
+  font-family:微软雅黑;
+  font-weight:bold;}
+ ul{ 
+  list-style:none;}
+ ul li{ 
+  line-height:40px; 
+  text-align:center; 
+  position:relative;
+  float:left;
+  margin-right:30px;
+  }
+ a{ 
+  text-decoration:none; 
+  color:#000; 
+  display:block; 
+  width:90px;
+  height:65px;}
+ a:hover{
+  color:#9fd0ed;
+  background-color:none;
+  padding-top:0;}
+ ul li ul li{
+  margin-top:0;
+  background-color:#9ecae9;
+  padding-top:0.1em;
+  padding-bottom:0.1em;
+  padding-right:0em;
+  padding-left:0em;
+  opacity:0.8;
+  } 
+ ul li ul li a:hover{
+  color:#012;
+  background-color:#c1dceb;
+  padding:0;}
+ ul li ul{
+  width:90px;
+  height:60px;
+  position:absolute;
+  top:60px;
+  right:0;
+  display:none; }
+ ul li:hover ul{
+  display:block;}/*下拉菜单2*/
+
+
+
+
+
+
+.style{
+  text-align:center;}
+.st{
+  font-weight:bold;
+  font-size:16pt;
+  font-family:Showcard Gothic;
+  color:#919191;}
+
+
+
+
+
+.nav{
+  width:1600px;
+	position:relative;
+  top:940px;
+  left:130px;}
+.nav ul{
+	background-color:#fff;
+	width:486.99px;
+	height:640px}
+.nav ul li{
+	display: block;
+	position:absolute;
+	top:0;
+  left:0;
+	color:#000;
+	background-color:none;
+  font-family: Showcard Gothic;
+  font-size:20pt;
+  font-weight:bold;
+  list-style:none;
+  margin-top:150px;}
+.nav ul li a{
+	background-color:#000;
+	display: block;
+	width:0;
+	height:0;
+  text-decoration:none;
+     }
+.nav ul li a:hover{
+	padding-top:0.5em;
+	background-color:#ececec;
+  color:#909090;
+  opacity:0.8;
+  font-size:25pt;
+  padding-right:14.7em;
+  padding-left:0;
+  height:1.6em;
+    }
+ul li a p1{
+	position: absolute;
+	top: 0px;
+	left: 120px;
+	display: block;
+	width: 200px;
+	height: 60px;}
+ul li a p1:hover{
+	padding-top:0.4em;}	
+
+ul li a p2{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	width: 200px;
+	height: 60px;
+    }
+ul li a p2:hover{
+	padding-top:0.3em;
+    } 
+
+ul li a p3{
+	display: block;
+	position: absolute;
+	top: 0;
+	left:120px;
+	width: 200px;
+	height: 60px;
+    }
+ ul li a p3:hover{
+ 	padding-top:0.5em;}  
+
+ul li a p4{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 110px;
+	width: 200px;
+	height: 60px;
+    }
+ul li a p4:hover{
+    padding-top:0.5em;}  
+
+ul li a p5{
+	display: block;
+	position: absolute;
+	top: -5px;
+	left:100px;
+	width: 200px;
+	height: 60px;
+    }
+ul li a p5:hover{
+    padding-top:0.5em;}   
+
+ul li a p6{
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 70px;
+	width: 200px;
+	height: 60px;
+    }
+ul li a p6:hover{
+	padding-top:0.5em;}  
+
+
+.p5 a:hover{
+  height:120px;
+  width:200px;
+  background-color:#ececec; 
+  border-radius:10px  }
+
+.p5 a{
+  position:relative;
+  top:0px;
+  left:1467.0375px;
+  width:200px;
+  height:120px;}
+.p5 a img{
+  position:absolute;
+  top:47px;
+  left:0px}
+.p5 a p{
+  position:absolute;
+  top:11px;
+  left:0px;
+  color:#fff;
+  font-weight:bold;
+  font-size:30pt;
+  display:block;
+  padding-top:40px;
+  padding-bottom: 30px;
+  padding-left:150px}
+.p5 a p:hover{
+  color:#000fff;
+   font-size:30pt}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
