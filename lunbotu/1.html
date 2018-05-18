@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>无标题</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		width:100%;
+		height: 100%;
+	}
+	#container{
+		position: relative;
+		margin:0 auto;
+		width:600px;
+		height: 600px;
+		border:1px solid #099;
+		box-shadow: 3px 3px 20px 3px  #ccc;
+		z-index: 1;
+		background: #000;
+	}
+
+	#Start{
+
+		display:block;
+		margin:45% auto;
+		width:100px;
+		height: 50px;
+		background:#036;
+		box-shadow: 3px 3px 20px 3px  #ccc;
+		outline:none;
+		border:1px solid #000;
+		border-radius: 10px;
+		color:#fff;
+		font-size:25px;
+		font-weight:bold;
+	}
+	#Snake{
+		width:10%;
+		height: 10px;
+		position: absolute;
+	}
+	
+	@keyframes move{
+		0%{
+			left:140px;
+			top:138px;
+			background: #002;
+		}
+		25%{
+			left:450px;
+			top:138px;
+			background: #025;
+		}
+		50%{
+			left:450px;
+			top:448px;
+			background: #065;
+		}
+		75%{
+			left:140px;
+			top:448px;
+			background: #092;
+		}
+		100%{
+			left:140px;
+			top:138px;
+			background: #902;
+		}
+	
+	}
+	.BanDain_1{
+	
+		animation:move 3s ease 0.1s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_2{
+	
+		animation:move 3s ease 0.2s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_3{
+	
+		animation:move 3s ease 0.3s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_4{
+	
+		animation:move 3s ease 0.4s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_5{
+	
+		animation:move 3s ease 0.5s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_6{
+
+		animation:move 3s ease 0.6s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_7{
+		
+		animation:move 3s ease 0.7s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_8{
+	
+		animation:move 3s ease 0.8s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_9{3s
+		animation:move 3s ease 0.9s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_10{
+	
+		animation:move 3s ease 1.0s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_11{
+	
+		animation:move 3s ease 1.1s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_12{
+	
+		animation:move 3s ease 1.2s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_13{
+	
+		animation:move 3s ease 1.3s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_14{
+	
+		animation:move 3s ease 1.4s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_15{
+
+		animation:move 3s ease 1.5s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_16{
+		
+		animation:move 3s ease 1.6s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_17{
+	
+		animation:move 3s ease 1.7s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_18{
+		animation:move 3s ease 1.8s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_19{
+	
+		animation:move 3s ease 1.9s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_20{
+	
+		animation:move 3s ease 2.0s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_21{
+	
+		animation:move 3s ease 2.1s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_22{
+	
+		animation:move 3s ease 2.2s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_23{
+	
+		animation:move 3s ease 2.3s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_24{
+
+		animation:move 3s ease 2.4s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_25{
+		
+		animation:move 3s ease 2.5s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_26{
+	
+		animation:move 3s ease 2.6s infinite;
+  		animation-fill-mode:forwards;
+	}
+	.BanDain_27{
+		animation:move 3s ease 2.7s infinite;
+  		animation-fill-mode:forwards;
+	}
+
+	.arrow{
+		position: absolute;
+		left:140px;
+		top:138px;
+		display:inline-block;
+		width:10px;
+		height: 10px;
+
+	}
+</style>
+<script type="text/javascript" src="jq/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+	window.onload = function(){
+		var SnakeStart = document.getElementById('snakeStart');
+		var Button = document.getElementById('Start');
+		var container = document.getElementById('container');
+		var Snake_Div = document.getElementById('Snake');
+		Button.onclick = function(){
+			SnakeStart.style.display = 'none';
+			Snake();
+			setInterval(,300);	
+		}
+		
+			
+
+		function Snake(){
+			for(var i = 0; i < 3; i++){
+				Snake_Body(i);
+				
+			}
+
+
+		}  
+		function Snake_Body(num){
+			var Snake_Body = document.createElement('div');
+			$(Snake_Body).css({'width':'10px','height':'10px', 'background':'#099'});
+			Snake_Body.style.position = 'absolute'
+			Snake_Body.style.left = num*12 + 'px';
+			Snake_Div.appendChild(Snake_Body);
+
+		}
+			
+		var NU = document.createElement('div');
+		$(Snake_Body).css({'width':'10px','height':'10px', 'background':'#099'});
+			Snake_Body.style.position = 'absolute'
+			Snake_Body.style.left  += 50 + 'px';
+			Snake_Div.appendChild(Snake_Body);
+
+
+
+	}
+</script>
+</head>
+<body>
+	<div id="container">
+		<div id="snakeStart">
+			<div>
+				<div class="BanDain_1 arrow"></div>
+				<div class="BanDain_2 arrow"></div>
+				<div class="BanDain_3 arrow"></div>
+				<div class="BanDain_4 arrow"></div>
+				<div class="BanDain_5 arrow"></div>
+				<div class="BanDain_6 arrow"></div>
+				<div class="BanDain_7 arrow"></div>
+				<div class="BanDain_8 arrow"></div>
+				<div class="BanDain_9 arrow"></div>
+				<div class="BanDain_10 arrow"></div>
+				<div class="BanDain_11 arrow"></div>
+				<div class="BanDain_12 arrow"></div>
+				<div class="BanDain_13 arrow"></div>
+				<div class="BanDain_14 arrow"></div>
+				<div class="BanDain_15 arrow"></div>
+				<div class="BanDain_16 arrow"></div>
+				<div class="BanDain_17 arrow"></div>
+				<div class="BanDain_18 arrow" ></div>
+				<div class="BanDain_19 arrow"></div>
+				<div class="BanDain_20 arrow"></div>
+				<div class="BanDain_21 arrow"></div>
+				<div class="BanDain_22 arrow"></div>
+				<div class="BanDain_23 arrow"></div>
+				<div class="BanDain_24 arrow"></div>
+				<div class="BanDain_25 arrow"></div>
+				<div class="BanDain_26 arrow"></div>
+				<div class="BanDain_27 arrow" ></div>
+			</div>
+			<button id="Start">开始</button>
+		</div>
+		<div id="Snake"></div>
+	</div>
+</body>
+</html>
